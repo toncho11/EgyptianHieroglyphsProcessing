@@ -49,6 +49,13 @@ namespace EgyptianHieroglyphsProcessing
             return index;
         }
 
+        public string ConvertFromUnicodeNumberToGlyph(int index)
+        {
+            string glyph = Char.ConvertFromUtf32(index);
+
+            return glyph;
+        }
+
         private void button1_Click(object sender, EventArgs e)
         {
             string single_character = "\U00013000"; //hex code
@@ -57,7 +64,7 @@ namespace EgyptianHieroglyphsProcessing
 
             for (int i = 0; i < 40; i++)
             {
-                string glyph = Char.ConvertFromUtf32(index);
+                string glyph = ConvertFromUnicodeNumberToGlyph(index);
 
                 textBox1.Text += glyph;
 
