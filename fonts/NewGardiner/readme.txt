@@ -1,0 +1,5 @@
+This font contains the 1071 glyphs from 0x13000 to 0x1342E, forming the section from document WG2/N3349R that deals with Egyptian Hieroglyphs. (There is further information about the glyphs.) The name indicates that the font does not have the pretence to offer much more than the shapes of the font used by Gardiner in his grammar and in supplementary documents, while it is 'new' in the sense of being somewhat more streamlined and uniform.
+
+The font was explicitly designed for use on a computer screen, and consequently the lines are thicker than in some other hieroglyphic fonts. It is also suitable for hieroglyphic text on paper however. A detailed list of justifications for the design of individual glyphs, including the choices of their dimensions, is forthcoming.
+
+The font is available in two versions. In the first, the code points are as prescribed in Unicode, from 0x13000 to 0x1342E (in the SMP). In the second, the code points were transposed to 0xE000 to 0xE42E (in the Private Use Area of BMP). This was in order to accommodate software that cannot handle character codes of more than 2 bytes.
