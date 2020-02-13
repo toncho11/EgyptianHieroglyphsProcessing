@@ -12,6 +12,9 @@ namespace EgyptianHieroglyphsProcessing
 {
     public partial class MainForm : Form
     {
+        public static string EFont = "NewGardiner";
+        //public static string EFont = "AncientEgyptianHieroglyphs";
+
         public MainForm()
         {
             InitializeComponent();
@@ -19,16 +22,16 @@ namespace EgyptianHieroglyphsProcessing
 
         public void Init()
         {
-            if (System.Drawing.FontFamily.Families.Count(x => x.Name == "NewGardiner") == 0)
+            if (System.Drawing.FontFamily.Families.Count(x => x.Name == EFont) == 0)
             {
-                DialogResult dialogResult = MessageBox.Show("The font 'NewGardiner' is not detected! Do you wish to continue?", "A font is missing", MessageBoxButtons.YesNo);
+                DialogResult dialogResult = MessageBox.Show("The font '" + EFont + " ' is not detected! Do you wish to continue?", "A font is missing", MessageBoxButtons.YesNo);
                 if (dialogResult == DialogResult.No)
                 {
                     Application.Exit();
                 }
             }
 
-            textBox1.Font = new Font("NewGardiner", 36, FontStyle.Regular);
+            textBox1.Font = new Font(EFont, 36, FontStyle.Regular);
         }
 
         private void MainForm_Load(object sender, EventArgs e)
