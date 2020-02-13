@@ -3,3 +3,5 @@ This is an example code of simple visualization of ancient Egyptian hieroglyphs 
 
 1) Install the NewGardiner font (also provided here as a backup copy)
 2) Compile and launch application in Visual Studio
+
+Another font is available [here](https://www.dafont.com/ancient-egyptian-hieroglyphs.font).
