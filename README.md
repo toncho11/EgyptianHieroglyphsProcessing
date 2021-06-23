@@ -13,4 +13,5 @@ So now we have our single character (glyph) encoded as 4 bytes instead of 2. Als
 ```
 string two_characters = "\U00013000\U00013010";
 ```
+All this allows us to save texts written in hieroglyphs in unicode files and process them. One can use Machine Learning for example to create an automatic translator from these unicode files as inputs and English files as outputs.
 
