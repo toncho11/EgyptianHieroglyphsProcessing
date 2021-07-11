@@ -15,3 +15,7 @@ string two_characters = "\U00013000\U00013010";
 ```
 All this allows us to save texts written in hieroglyphs in unicode files and process them. One can use Machine Learning for example to create an automatic translator from these unicode files as inputs and English files as outputs.
 
+Corpuses: 
+
+*  [St Andrews Corpus](https://mjn.host.cs.st-andrews.ac.uk/egyptian/texts/corpus/pdf/)
+
